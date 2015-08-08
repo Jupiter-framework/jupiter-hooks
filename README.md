@@ -7,6 +7,17 @@ Simple hooks realizations
 
 * [Motivation](#motivation)
 * [API](#api)
+  * [Constructor](#constructor)
+  * [.addHookType](#addhooktype)
+  * [.removeHookType](#removehooktype)
+  * [.clearHooks](#clearhooks)
+  * [.addHook](#addhook)
+  * [.addHookBefore](#addhookbefore)
+  * [.addHookAfter](#addhookafter)
+  * [.resolveHook](#resolvehook)
+  * [.resolveHookBefore](#resolvehookbefore)
+  * [.resolveHookAfter](#resolvehookafter)
+  * [.wrap](#wrap)
 
 ## Motivation
 
