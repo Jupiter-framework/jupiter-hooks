@@ -1,0 +1,38 @@
+{
+  "name": "jupiter-hooks",
+  "version": "0.1.4",
+  "description": "Simple hooks realization",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "_mocha --require babel/register",
+    "watch": "_mocha --require babel/register --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jupiter-framework/jupiter-hooks.git"
+  },
+  "keywords": [
+    "hooks",
+    "jupiter"
+  ],
+  "author": "Rastopyr <rastopyr@gmail.com> (http://rastopyr.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jupiter-framework/jupiter-hooks/issues"
+  },
+  "homepage": "https://github.com/Jupiter-framework/jupiter-hooks",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.3",
+    "isparta": "^3.0.3",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2",
+    "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "es6-promise": "^2.3.0",
+    "immutable": "^3.7.4",
+    "ramda": "^0.17.1"
+  }
+}
